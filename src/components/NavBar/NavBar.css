@@ -1,0 +1,57 @@
+#home{
+    width: fit-content;
+    margin-left: auto;
+    /* align-items: end; */
+}
+#home:hover:before{
+content: "Home" ;
+/* width: auto; */
+transition: all 40ms ease-out;
+
+}
+#about{
+    /* transition: .5s; */
+    width: fit-content;
+    margin-left: auto;
+}
+#about:hover:before{
+content: "Profile";
+transition: all 200ms;
+width: auto;
+
+}
+
+#project{
+    transition: .5s;
+    width: fit-content;
+    margin-left: auto;
+}
+#project:hover:before{
+content: "Project";
+transition: all 200ms;
+width: auto;
+
+}
+
+#skill{
+    transition: .5s;
+    width: fit-content;
+    margin-left: auto;
+}
+#skill:hover:before{
+content: "Skills";
+transition: all 200ms;
+width: auto;
+}
+
+#contact{
+    transition: .5s;
+    width: fit-content;
+    margin-left: auto;
+}
+#contact:hover:before{
+content: "Contact";
+transition: all 200ms;
+width: auto;
+
+}

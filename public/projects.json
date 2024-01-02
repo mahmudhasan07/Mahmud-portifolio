@@ -1,0 +1,87 @@
+[
+    {
+        "projectNo": 1,
+        "name": "NovoNest Residence",
+        "image1": "https://i.ibb.co/PjtmG8k/novo-home.png",
+        "image2": "https://i.ibb.co/4d9fYZc/novo-apartments.png",
+        "image3": "https://i.ibb.co/YB5cnw0/novo-member.png",
+        "image4": "https://i.ibb.co/YTQxy7H/novo-admin.png",
+        "note": "This is an apartment owner website. Where he has flats for rent and maintain the apartment website. The people who rent those flats they can pay their monthly rent by this website",
+        "technologyUse": [
+            "https://i.ibb.co/N2Zm6pW/html.png",
+            "https://i.ibb.co/Zms2qJP/react-removebg-preview.png",
+            "https://i.ibb.co/XCgC3Qm/tailwind.png",
+            "https://i.ibb.co/x8Vcxsk/node.png",
+            "https://i.ibb.co/d2CgpsR/material-removebg-preview.png",
+            "https://i.ibb.co/zPc6Jdt/express.png",
+            "https://i.ibb.co/7v2WM2Y/mongodb.png"
+        ],
+        "live_link": "https://novonest-realty.web.app",
+        "client_github_link": "https://github.com/mahmudhasan07/NovoNest-Residences",
+        "sever_github_link" : "https://github.com/mahmudhasan07/NovoNest-Residences-Server",
+        "date": "28-10-2023",
+        "features": [
+            "I use sort method in rent system so that any one can see which is lowest rent",
+            "I create 3 types of user in this website where a normal-user, member-user, admin-user",
+            "Member user can see their payment list with a search filter",
+            "I also create a announcement with a sort method",
+            "This i a website a payment method so member-user can pay their rent from home"
+        ]
+    },
+    {
+        "projectNo": 2,
+        "name": "Speed of Creativity",
+        "image1": "https://i.ibb.co/kMtLtyP/speed-home.png",
+        "image2": "https://i.ibb.co/716LVcB/speed-assignments.png",
+        "image3": "https://i.ibb.co/j5F0xs0/speed-info.png",
+        "image4": "https://i.ibb.co/dkX9mpw/speed-submitted.png",
+        "note": "This is a educational website so i create to many tasks with assignment so that students can practice more and know more about programming",
+        "technologyUse": [
+            "https://i.ibb.co/N2Zm6pW/html.png",
+            "https://i.ibb.co/Zms2qJP/react-removebg-preview.png",
+            "https://i.ibb.co/XCgC3Qm/tailwind.png",
+            "https://i.ibb.co/x8Vcxsk/node.png",
+            "https://i.ibb.co/zPc6Jdt/express.png",
+            "https://i.ibb.co/7v2WM2Y/mongodb.png"
+        ],
+        "live_link": "https://speed-of-creativity.web.app",
+        "client_github_link": "https://github.com/mahmudhasan07/Speed-Of-Creativity",
+        "sever_github_link" : "https://github.com/mahmudhasan07/Speed-Of-Creativity-Server",
+        "date": "01-11-2023",
+        "features": [
+            "This is a educational website so i create to many tasks with assignment so that students can practice more and know more about programming",
+            "I made a level sort method website so that you can decide which level you want to work.",
+            "I give a quite good animation for my website",
+            "I implement search section so that you can easily find which type of programming you want to practice.",
+            "I also create a comment section so that user can feedback us."
+        ]
+    },
+    {
+        "projectNo": 2,
+        "name": "Speed of Creativity",
+        "image1": "https://i.ibb.co/kMtLtyP/speed-home.png",
+        "image2": "https://i.ibb.co/716LVcB/speed-assignments.png",
+        "image3": "https://i.ibb.co/j5F0xs0/speed-info.png",
+        "image4": "https://i.ibb.co/dkX9mpw/speed-submitted.png",
+        "note": "This is a educational website so i create to many tasks with assignment so that students can practice more and know more about programming",
+        "technologyUse": [
+            "https://i.ibb.co/N2Zm6pW/html.png",
+            "https://i.ibb.co/Zms2qJP/react-removebg-preview.png",
+            "https://i.ibb.co/XCgC3Qm/tailwind.png",
+            "https://i.ibb.co/x8Vcxsk/node.png",
+            "https://i.ibb.co/zPc6Jdt/express.png",
+            "https://i.ibb.co/7v2WM2Y/mongodb.png"
+        ],
+        "live_link": "https://speed-of-creativity.web.app",
+        "client_github_link": "https://github.com/mahmudhasan07/Speed-Of-Creativity",
+        "sever_github_link" : "https://github.com/mahmudhasan07/Speed-Of-Creativity-Server",
+        "date": "01-11-2023",
+        "features": [
+            "This is a educational website so i create to many tasks with assignment so that students can practice more and know more about programming",
+            "I made a level sort method website so that you can decide which level you want to work.",
+            "I give a quite good animation for my website",
+            "I implement search section so that you can easily find which type of programming you want to practice.",
+            "I also create a comment section so that user can feedback us."
+        ]
+    }
+]

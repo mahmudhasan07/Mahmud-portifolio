@@ -1,0 +1,14 @@
+#projects{
+    left: 36%;
+}
+
+@media screen and (max-width: 768px) {
+    #projects{
+        left: 29%;
+    }
+}
+@media screen and (max-width: 430px) {
+    #projects{
+        left: 18%;
+    }
+}
