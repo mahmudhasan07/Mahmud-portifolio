@@ -42,7 +42,7 @@ const Home = () => {
                     </p>
                     
                     </div>
-                    <div className="lg:text-5xl lg:p-0 md:text-3xl text-2xl font-extrabold relative lg:w-96 ">
+                    <div className="lg:text-5xl lg:p-0 italic md:text-3xl text-2xl font-extrabold relative lg:w-96 ">
                         <p id="text-slide" className="">MERN STACK DEVELOPER</p><p id="field" className="">MERN STACK DEVELOPER</p>
                     </div>
                     <div className="lg:w-[700px] text-white text-lg my-5">

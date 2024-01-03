@@ -9,6 +9,11 @@ import linkedin from "../../../public/icons/icons8-linkedin-48.png"
 import whatsapp from "../../../public/icons/icons8-whatsapp-48.png"
 import email from "../../../public/icons/icons8-email-48.png"
 import github from "../../../public/icons/icons8-github-50.png"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+// import { MdFileDownload, MdFileDownloadOff } from 'react-icons/md';
+import { IoMdSend } from "react-icons/io";
+
 
 const Contact = () => {
     useEffect(() => {
@@ -18,14 +23,24 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_k66xk9s', 'template_kvkgfri', form.current, 'hBm6FCmTz2fLTfKOC')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+        e.preventDefault();
+
+        emailjs.sendForm('service_k66xk9s', 'template_kvkgfri', form.current, 'hBm6FCmTz2fLTfKOC')
+            .then((result) => {
+                console.log(result.text);
+                toast('🦄 Message Send', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
+            }, (error) => {
+                console.log(error.text);
+            });
     };
 
     return (
@@ -33,6 +48,7 @@ const Contact = () => {
             data-aos="fade-down"
             data-aos-duration="2000"
             className="bg-black lg:h-screen h-full">
+                <ToastContainer />
             <span className='lg:text-8xl md:text-6xl text-4xl font-extrabold text-gray-800 opacity-60 absolute' id='contactme'>Contact Me</span>
             <h1 className='lg:text-6xl md:text-5xl text-3xl text-center z-50 text-white font-bold relative lg:top-6 md:top-3 top-1 lg:mb-10 mb-5'>Get <span className='text-blue-800'>In Touch</span></h1>
             <div className='flex flex-wrap justify-around'>
@@ -62,22 +78,28 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
-                <div className=' lg:my-16 my-7 lg:w-2/5'>
+                <div className=' lg:my-16 my-7 p-1 lg:w-2/5'>
                     <form ref={form} onSubmit={sendEmail}>
-                        
-                        <div className='flex flex-wrap justify-between p-1'>
-                        <input className=' w-60 p-2 rounded-3xl' placeholder='Your Name' type="text" name="user_name" />
-                        
-                        <input className=' w-60 p-2 rounded-3xl' placeholder='Your Email' type="email" name="user_email" />
+
+                        <div className='flex flex-wrap lg:gap-0 gap-5 justify-between p-1'>
+                            <input className=' lg:w-64 p-2 w-full rounded-3xl' placeholder='Your Name' type="text" name="user_name" />
+
+                            <input className=' lg:w-64 w-full p-2 rounded-3xl' placeholder='Your Email' type="email" name="user_email" />
                         </div>
                         <br />
                         <textarea className=' w-full  h-36 p-2 rounded-3xl' placeholder='Your Message' name="message" />
-                        <input className='btn' type="submit" value="Send" />
+                        {/* <input className='send' type="submit" value="Send" /> */}
+                        <div>
+                            <button type='submit' className='button z-40 flex gap-1 mt-5 border'>
+                                <span className="button-content text-lg  my-auto">Send</span>
+                                {/* <span><IoMdSend className=' root text-2xl top-3'></IoMdSend></span> */}
+                            </button>
+                        </div>
+
                     </form>
                 </div>
 
             </div>
-
         </section>
     );
 };

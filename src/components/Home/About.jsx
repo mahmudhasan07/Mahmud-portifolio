@@ -22,7 +22,7 @@ const About = () => {
             data-aos-duration="2000"
             className=" bg-black  h-full ">
             <p className="lg:text-8xl text-5xl text-gray-800 opacity-60 absolute lg:left-1/3 left-1/4  mx-auto font-extrabold " > About Me</p>
-            <h1 className='lg:text-6xl text-4xl text-white text-center lg:top-5 top-2 relative font-bold'>My <span className='text-blue-800'>Profile</span></h1>
+            <h1 className='lg:text-6xl text-4xl text-white text-center lg:top-5 top-2 relative font-bold'>My <span className='text-blue-800 '>Profile</span></h1>
             <div className='flex justify-around flex-wrap lg:my-12 my-5'>
                 <div data-aos="fade-right"
                     // data-aos-offset="500"
@@ -37,7 +37,7 @@ const About = () => {
                     data-aos-easing="ease-in-sine"
                     data-aos-delay="1000"
                     data-aos-duration="3000" className=' text-white my-auto'>
-                    <h1 className='text-5xl text-center font-semibold'>Personal InFo</h1>
+                    <h1 className='text-5xl italic text-center font-semibold'>Personal InFo</h1>
                     <hr className='w-3/4 mx-auto border-2 mt-1 rounded-xl' />
                     <div className='mt-5'>
                         <h1 className='text-lg mb-2'><span className='font-semibold'>Name: </span>Mahmud Hasan Siddique</h1>

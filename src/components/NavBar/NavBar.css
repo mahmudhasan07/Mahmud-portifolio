@@ -55,3 +55,10 @@ transition: all 200ms;
 width: auto;
 
 }
+
+li{
+    background-color: transparent;
+}
+li:hover{
+    background-color: blue;
+}

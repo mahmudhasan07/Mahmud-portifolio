@@ -256,3 +256,8 @@
     transform: translateY(0px);
     transition-duration: 0.3s;
   }
+
+.send{
+    background-color: green;
+    color: green;
+  }
