@@ -1,8 +1,16 @@
 import "./Project.css"
 import project from "../../../public/projects.json"
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Project = () => {
-    console.log(project);
+    // console.log(project);
+
+    useEffect(()=>{
+        AOS.init()
+    },[])
+
     return (
         <section data-aos="fade-down"
         // data-aos-offset="500"

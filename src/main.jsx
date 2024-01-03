@@ -7,12 +7,14 @@ import {
   RouterProvider,
   Route,
   Link,
+  NavLink
 } from "react-router-dom";
 import Home from './components/Home/Home.jsx';
 import About from './components/Home/About.jsx';
 import Skills from './components/Home/Skills.jsx';
 import Project from './components/Home/Project.jsx';
 import ProjectInfo from './components/Home/ProjectInfo.jsx';
+import Contact from './components/Home/Contact.jsx';
 
 const router = createBrowserRouter ([
   {
@@ -39,6 +41,10 @@ const router = createBrowserRouter ([
         path : '/projects/:id',
         element : <ProjectInfo></ProjectInfo>
       },
+      {
+        path :"/contact",
+        element : <Contact></Contact>
+      }
     ]
   }
 ])

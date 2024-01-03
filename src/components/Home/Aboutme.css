@@ -16,9 +16,14 @@
 }
 
 .button:hover::before {
-    transform: scaleX(1) ;
+    transform: scaleX(1);
     /* transform:  rotate(180deg); */
 
+}
+
+.button:hover .root {
+    transition: all .3s ease-in-out;
+    transform: rotate(180deg);
 }
 
 .button-content {
@@ -42,13 +47,9 @@
     transition: all 0.475s;
 }
 
-.root{
+.root {
     position: relative;
     z-index: 1;
     /* background-color: yellow; */
 
-}
-
-.root:hover{
-    transform: rotate(180deg);
 }

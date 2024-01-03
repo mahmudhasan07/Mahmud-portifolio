@@ -1,13 +1,18 @@
 import { NavLink, useParams } from "react-router-dom";
 import "./ProjectInfo.css"
 import project from "../../../public/projects.json"
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ProjectInfo = () => {
     const id = useParams()
     // console.log(id);
     const details = project.find(element => element.projectNo == id.id)
-    console.log(details);
+    // console.log(details);
+    useEffect(() => {
+        AOS.init()
+    }, [])
     const [image, setimage] = useState(details?.image1)
     return (
         <section
@@ -20,10 +25,10 @@ const ProjectInfo = () => {
             </div>
             <div className="my-20 flex flex-wrap justify-around">
                 <div data-aos="fade-right"
-                // data-aos-offset="500"
-                data-aos-easing="ease-in-sine"
-                data-aos-delay="500"
-                data-aos-duration="1200" className="w-2/5  relative">
+                    // data-aos-offset="500"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-delay="500"
+                    data-aos-duration="1200" className="w-2/5  relative">
                     <img src={image} alt="" />
                     <div className="flex justify-around  my-2 ">
                         <img onClick={() => setimage(details.image1)} className="w-24 " src={details.image1} alt="" />
@@ -32,11 +37,11 @@ const ProjectInfo = () => {
                         <img onClick={() => setimage(details.image4)} className="w-24 " src={details.image4} alt="" />
                     </div>
                 </div>
-                <div  data-aos="fade-left"
-                // data-aos-offset="500"
-                data-aos-easing="ease-in-sine"
-                data-aos-delay="500"
-                data-aos-duration="1200" className="w-2/5">
+                <div data-aos="fade-left"
+                    // data-aos-offset="500"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-delay="500"
+                    data-aos-duration="1200" className="w-2/5">
                     <h1 className="text-3xl font-semibold mb-1">{details.name}</h1>
                     <p>{details.note}</p>
                     <div className="flex gap-3 my-2">

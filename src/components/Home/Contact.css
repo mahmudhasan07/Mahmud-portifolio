@@ -1,0 +1,258 @@
+#contactme {
+    left: 31%;
+}
+
+@media screen and (max-width: 768px) {
+    #contactme {
+        left: 26%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #contactme {
+        left: 23%;
+    }
+}
+
+/* //* Facebook Css */
+.facebook-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px lightblue;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.facebook-svgIcon {
+    width: 35px;
+    transition-duration: 0.3s;
+}
+
+.facebook-button:hover {
+    width: 110px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: blue;
+    align-items: center;
+}
+
+.facebook-button:hover .facebook-svgIcon {
+    width: 30px;
+    transition-duration: 0.3s;
+    transform: translateY(60%);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.facebook-button::after {
+    display: none;
+    content: "Facebook";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 2px;
+}
+
+.facebook-button:hover::after {
+    display: block;
+    padding-right: 10px;
+    font-size: 16px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition-duration: 0.3s;
+}
+
+/* //*Linkedin Css */
+
+.linkedin-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px lightblue;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.linkedin-svgIcon {
+    width: 35px;
+    transition-duration: 0.3s;
+}
+
+.linkedin-button:hover {
+    width: 110px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: blue;
+    align-items: center;
+}
+
+.linkedin-button:hover .linkedin-svgIcon {
+    width: 30px;
+    transition-duration: 0.3s;
+    transform: translateY(60%);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.linkedin-button::after {
+    display: none;
+    content: "Linkedin";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 2px;
+}
+
+.linkedin-button:hover::after {
+    display: block;
+    padding-right: 10px;
+    font-size: 16px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition-duration: 0.3s;
+}
+
+/* //*Whatsapp */
+
+.whatsapp-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px lightblue;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.whatsapp-svgIcon {
+    width: 35px;
+    transition-duration: 0.3s;
+}
+
+
+
+.whatsapp-button:hover {
+    width: 110px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: blue;
+    align-items: center;
+}
+
+.whatsapp-button:hover .whatsapp-svgIcon {
+    width: 30px;
+    transition-duration: 0.3s;
+    transform: translateY(60%);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.whatsapp-button::after {
+    display: none;
+    content: "Whatsapp";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 2px;
+}
+
+.whatsapp-button:hover::after {
+    display: block;
+    padding-right: 10px;
+    font-size: 16px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition-duration: 0.3s;
+}
+
+/* //*Github */
+.github-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px lightblue;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .github-svgIcon {
+    width: 35px;
+    transition-duration: 0.3s;
+  }
+  
+  
+  
+  .github-button:hover {
+    width: 110px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: blue;
+    align-items: center;
+  }
+  
+  .github-button:hover .github-svgIcon {
+    width: 30px;
+    transition-duration: 0.3s;
+    transform: translateY(60%);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  
+  .github-button::after {
+    display: none;
+    content: "Github";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 2px;
+  }
+  
+  .github-button:hover::after {
+    display: block;
+    padding-right: 10px;
+    font-size: 16px;
+    opacity: 1;
+
+    transform: translateY(0px);
+    transition-duration: 0.3s;
+  }

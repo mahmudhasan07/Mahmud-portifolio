@@ -6,11 +6,14 @@ import myimage from "../../../public/image/myimage.png"
 import { FaBookOpenReader } from "react-icons/fa6";
 import { MdFileDownload } from "react-icons/md";
 import { FaBusinessTime } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
+import CV from '../../../public/Mahmud-hasan-CV2.pdf';
 
 const About = () => {
     useEffect(() => {
         AOS.init()
     }, [])
+    console.log(CV);
     return (
 
         <section data-aos="fade-down"
@@ -43,25 +46,28 @@ const About = () => {
                         <h1 className='text-lg mb-2'><span className='font-semibold'>Nationality: </span>Bangladeshi</h1>
                         <h1 className='text-lg mb-2'><span className='font-semibold'>Language: </span>Bangla, English, Hindi(only listening understand)</h1>
                         <div>
-                            <button className='button z-40 flex gap-1 border'>
-                            <span className="button-content text-lg  my-auto">Download</span>
-                            <span><MdFileDownload className=' root text-2xl top-3'></MdFileDownload></span>
-                            </button>
+                            <a href={CV} download={`Mahmud-CV`} rel='Mahmud CV'>
+                                <button className='button z-40 flex gap-1 mt-5 border'>
+                                    <span className="button-content text-lg  my-auto">Download CV</span>
+                                    <span><MdFileDownload className=' root text-2xl top-3'></MdFileDownload></span>
+                                </button>
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
             </div>
 
             {/*//* Skill section */}
-            <div  className='text-white lg:my-12 ny-6'>
+            <div className='text-white lg:my-12 ny-6'>
                 <h1 className='text-4xl font-semibold text-center '>My <span className='text-blue-800'>Skills</span></h1>
                 <hr className='w-1/3 text-center mx-auto border-2 my-6' />
                 <div className='flex flex-wrap gap-5 justify-around'>
                     <div data-aos="fade-right"
-                // data-aos-offset="500"
-                data-aos-easing="ease-in-sine"
-                data-aos-delay="500"
-                data-aos-duration="1200" className='border w-fit p-3 text-lg rounded-xl'>
+                        // data-aos-offset="500"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-delay="500"
+                        data-aos-duration="1200" className='border w-fit p-3 text-lg rounded-xl'>
                         <h1 className='text-xl font-semibold'>Front-End Developer</h1>
                         <p>* HTML</p>
                         <p>* CSS</p>
@@ -69,10 +75,10 @@ const About = () => {
 
                     </div>
                     <div data-aos="fade-right"
-                // data-aos-offset="500"
-                data-aos-easing="ease-in-sine"
-                data-aos-delay="600"
-                data-aos-duration="1200" className='border w-fit p-3 text-lg rounded-xl'>
+                        // data-aos-offset="500"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-delay="600"
+                        data-aos-duration="1200" className='border w-fit p-3 text-lg rounded-xl'>
                         <h1 className='text-xl font-semibold'>MERN Stack Developer</h1>
                         <p>* React</p>
                         <p>* Node.js</p>
@@ -80,10 +86,10 @@ const About = () => {
                         <p>* MongoDB</p>
                     </div>
                     <div data-aos="fade-right"
-                // data-aos-offset="500"
-                data-aos-easing="ease-in-sine"
-                data-aos-delay="700"
-                data-aos-duration="1200" className='border w-fit p-3 text-lg  rounded-xl'>
+                        // data-aos-offset="500"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-delay="700"
+                        data-aos-duration="1200" className='border w-fit p-3 text-lg  rounded-xl'>
                         <h1 className='text-xl font-semibold'>FrameWork</h1>
                         <p>* Material-UI</p>
                         <p>* Bootstrap</p>
@@ -95,7 +101,7 @@ const About = () => {
             </div>
 
             {/* // Experience & Education section*/}
-            <div className=''>
+            <div className='text-white'>
                 <h1 className='text-4xl text-center font-semibold my-5 text-white'>Experience & <span className='text-blue-800'>Education</span></h1>
                 <div className='flex flex-wrap py-5 justify-around'>
                     <div data-aos="fade-right"
@@ -117,17 +123,16 @@ const About = () => {
                             <div className='text-lg'>
                                 <h1>MERN Developer <span>Freelancer</span></h1>
                                 <p>Year: 2023- Present</p>
-                                <p className='text-wrap w-72'>• Assisted in building full-stack applications using MongoDB, Express.js, React.js, Node.js and front-end functionalities.</p>
                                 {/* <p className='text-wrap'>• Conducted debugging and testing procedures to optimize application performance and user experience.</p> */}
                             </div>
                         </div>
                     </div>
                     <hr className=' lg:flex hidden h-auto border border-blue-700' />
                     <div data-aos="fade-right"
-            // data-aos-offset="500"
-            data-aos-easing="ease-in-sine"
-            data-aos-delay="600"
-            data-aos-duration="1200" className='space-y-5 mx-1 lg:w-2/5'>
+                        // data-aos-offset="500"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-delay="600"
+                        data-aos-duration="1200" className='space-y-5  mx-1 lg:w-2/5'>
                         <div className='flex gap-10'>
                             <FaBookOpenReader className='text-3xl z-40 bg-blue-800 text-white p-1 rounded-full'></FaBookOpenReader>
                             <hr className='border opacity-15 h-20 -ml-14' />
