@@ -53,8 +53,8 @@ const Contact = () => {
             <h1 className='lg:text-6xl md:text-5xl text-3xl text-center z-50 text-white font-bold relative lg:top-6 md:top-3 top-1 lg:mb-10 mb-5'>Get <span className='text-blue-800'>In Touch</span></h1>
             <div className='flex flex-wrap justify-around'>
                 <div className='lg:my-16 my-7 text-white lg:w-1/5 w-2/3 p-1'>
-                    <h1 className='text-3xl font-bold uppercase'>Stay Connect with me</h1>
-                    <p>Don't Shy to your thought with me. Get in touch with me to discuss new projects, creative ideas or opportunities.</p>
+                    <h1 className='text-3xl font-bold uppercase mb-3'>Stay Connect with me</h1>
+                    <p className='my-4'>Don't Shy to share your thoughts with me. Get in touch with me to discuss new projects, creative ideas, or opportunities. I always love to learn a new technique that helps me to grow up</p>
                     <div className='flex gap-4'>
                         <a href='https://www.facebook.com/mahmudnirob.t' target='blank' >
                             <button className="facebook-button text-lg">

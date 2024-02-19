@@ -62,12 +62,12 @@ const About = () => {
             <div className='text-white lg:my-12 ny-6'>
                 <h1 className='text-4xl font-semibold text-center '>My <span className='text-blue-800'>Skills</span></h1>
                 <hr className='w-1/3 text-center mx-auto border-2 my-6' />
-                <div className='flex flex-wrap gap-5 justify-around'>
+                <div className='flex flex-wrap gap-5  justify-around'>
                     <div data-aos="fade-right"
                         // data-aos-offset="500"
                         data-aos-easing="ease-in-sine"
                         data-aos-delay="500"
-                        data-aos-duration="1200" className='border w-fit p-3 text-lg rounded-xl'>
+                        data-aos-duration="1200" className='boxdiv border w-60  p-3 text-lg rounded-xl'>
                         <h1 className='text-xl font-semibold'>Front-End Developer</h1>
                         <p>* HTML</p>
                         <p>* CSS</p>
@@ -78,7 +78,7 @@ const About = () => {
                         // data-aos-offset="500"
                         data-aos-easing="ease-in-sine"
                         data-aos-delay="600"
-                        data-aos-duration="1200" className='border w-fit p-3 text-lg rounded-xl'>
+                        data-aos-duration="1200" className='boxdiv border w-60 p-3 text-lg rounded-xl'>
                         <h1 className='text-xl font-semibold'>MERN Stack Developer</h1>
                         <p>* React</p>
                         <p>* Node.js</p>
@@ -89,7 +89,7 @@ const About = () => {
                         // data-aos-offset="500"
                         data-aos-easing="ease-in-sine"
                         data-aos-delay="700"
-                        data-aos-duration="1200" className='border w-fit p-3 text-lg  rounded-xl'>
+                        data-aos-duration="1200" className='boxdiv border w-60  p-3 text-lg  rounded-xl'>
                         <h1 className='text-xl font-semibold'>FrameWork</h1>
                         <p>* Material-UI</p>
                         <p>* Bootstrap</p>

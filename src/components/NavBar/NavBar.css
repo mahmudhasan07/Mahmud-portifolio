@@ -59,6 +59,7 @@ width: auto;
 li{
     background-color: transparent;
 }
-li:hover{
+.lihover:hover{
     background-color: blue;
+    
 }

@@ -18,7 +18,7 @@ const ProjectInfo = () => {
         <section
             data-aos="fade-down"
             data-aos-duration="2000"
-            className="bg-black ">
+            className="bg-black text-white">
             <div>
                 <span className="text-8xl text-gray-800 absolute opacity-60 font-extrabold" id="info">Project Info</span>
                 <h1 className="text-6xl font-bold text-center lg:top-5 relative">Project <span className="text-blue-800">Details</span></h1>
@@ -63,7 +63,7 @@ const ProjectInfo = () => {
                 <h1 className="text-4xl font-semibold mb-5">Features Section</h1>
                 <ul className="">
                     {
-                        details.features.map((element, idx) => <li className="pb-2" key={idx}>{idx + 1}. {element}</li>)
+                        details.features.map((element, idx) => <li className="pb-2 " key={idx}>{idx + 1}. {element}</li>)
                     }
                 </ul>
             </div>

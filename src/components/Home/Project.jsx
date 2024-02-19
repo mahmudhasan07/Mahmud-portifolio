@@ -51,13 +51,15 @@ const Card=({card, id})=>{
         // data-aos-offset="500"
         data-aos-easing="ease-in-sine"
         data-aos-delay={`${id*200+1000}`}
-        data-aos-duration="1500" className="w-96 border p-3 rounded-xl lg:m-0 mx-3  ">
-            <img className="w-96" src={card.image1} alt="" />
-            <h1 className=""><span>Name: </span>{card.name}</h1>
+        data-aos-duration="1500" className="w-96 text-white  flex flex-col border p-3 rounded-xl lg:m-0 mx-3  ">
+            <img id="projectimage" className="w-96 h-56 object-top object-cover" src={card.image} alt="" />
+            <h1 className="my-2"><span className="font-semibold ">Name: </span>{card.name}</h1>
             <h1><span>Note: </span>{card.note}</h1>
-            <button onClick={handleproject} className="button w-full my-2">
+            <div className="mt-auto">
+            <button onClick={handleproject} className="button w-full mt-3">
                 <span className="button-content">Details</span>
             </button>
+            </div>
         </div>
     )
 
