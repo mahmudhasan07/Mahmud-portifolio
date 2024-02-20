@@ -14,8 +14,6 @@ import { CgProfile } from "react-icons/cg";
 import "./NavBar.css"
 
 const NavBar = () => {
-    const [hide, sethide] = useState('hidden')
-    console.log(hide);
     return (
         <section className='fixed top-1/3 z-50  end-0'>
             <div className=''>
