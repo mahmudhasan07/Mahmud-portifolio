@@ -10,7 +10,6 @@ const Project = () => {
     console.log(project);
     useEffect(() => {
         AOS.init()
-        setArray(project)
     }, [])
     const handleSort = (e) => {
         e.preventDefault()
