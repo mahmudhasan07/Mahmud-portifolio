@@ -83,5 +83,33 @@
             "We have a feedback section where user can feedback us.",
             "Also you can save videos as a bookmark."
         ]
+    },
+    {
+        "projectNo": 4,
+        "name": "Coffee House",
+        "image": "https://i.ibb.co/j8w5DXz/Coffee-House.png",
+        "image1": "https://i.ibb.co/7rMFZgR/Screenshot-2024-02-20-195137.png",
+        "image2": "https://res.cloudinary.com/daudgshta/video/upload/v1708437478/Coffee_House_2_kgqgh9.mp4",
+        "image3": "https://i.ibb.co/9wX0pvj/Screenshot-2024-02-20-200154.png",
+        "image4": "https://i.ibb.co/3mpHh9b/Screenshot-2024-02-20-200219.png",
+        "note": "This is my first Vue.js project with the MySql database. After reading some docs i make a basic website using this.",
+        "technologyUse": [
+            "https://i.ibb.co/fFSNnK1/png-transparent-vuejs-original-wordmark-logo-icon-thumbnail-removebg-preview.png",
+            "https://i.ibb.co/rtt9hss/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png",
+            "https://i.ibb.co/x8Vcxsk/node.png",
+            "https://i.ibb.co/N2Zm6pW/html.png",
+            "https://i.ibb.co/zPc6Jdt/express.png",
+            "https://i.ibb.co/XCgC3Qm/tailwind.png"
+        ],
+        "live_link": "https://coffee-house-dbcb4.web.app",
+        "client_github_link": "https://github.com/mahmudhasan07/Coffee-House",
+        "sever_github_link": "https://github.com/mahmudhasan07/Coffee_house_server",
+        "date": "2024-02-18",
+        "features": [
+            "An owner can easily add their coffee and snacks with proper input.",
+            "There are also update and delete sections for the owner so that he can easily modify it.",
+            "Try some style in the NavBar and Cards section.",
+            "The whole data is control from backend with node and express",
+        ]
     }
 ]

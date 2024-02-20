@@ -7,8 +7,10 @@ import 'aos/dist/aos.css';
 const Project = () => {
 
     const [array, setArray] = useState(project)
+    console.log(project);
     useEffect(() => {
         AOS.init()
+        setArray(project)
     }, [])
     const handleSort = (e) => {
         e.preventDefault()
