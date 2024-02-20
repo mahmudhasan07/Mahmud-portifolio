@@ -20,7 +20,7 @@
         "live_link": "https://novonest-realty.web.app",
         "client_github_link": "https://github.com/mahmudhasan07/NovoNest-Residences",
         "sever_github_link": "https://github.com/mahmudhasan07/NovoNest-Residences-Server",
-        "date": "28-10-2023",
+        "date": "2023-10-28",
         "features": [
             "I use sort method in rent system so that any one can see which is lowest rent",
             "I create 3 types of user in this website where a normal-user, member-user, admin-user",
@@ -49,7 +49,7 @@
         "live_link": "https://speed-of-creativity.web.app",
         "client_github_link": "https://github.com/mahmudhasan07/Speed-Of-Creativity",
         "sever_github_link": "https://github.com/mahmudhasan07/Speed-Of-Creativity-Server",
-        "date": "01-11-2023",
+        "date": "2023-11-1",
         "features": [
             "This is a educational website so i create to many tasks with assignment so that students can practice more and know more about programming",
             "I made a level sort method website so that you can decide which level you want to work.",
@@ -75,7 +75,7 @@
         "live_link": "https://speed-of-creativity.web.app",
         "client_github_link": "https://github.com/mahmudhasan07/Speed-Of-Creativity",
         "sever_github_link": "https://github.com/mahmudhasan07/Speed-Of-Creativity-Server",
-        "date": "07-10-2023",
+        "date": "2023-10-7",
         "features": [
             "This is basically a online education website. Where you can see all classes which is upload by admin of this website.",
             "We have some packages for our customer to buy.",
@@ -89,7 +89,7 @@
         "name": "Coffee House",
         "image": "https://i.ibb.co/j8w5DXz/Coffee-House.png",
         "image1": "https://i.ibb.co/7rMFZgR/Screenshot-2024-02-20-195137.png",
-        "image2": "https://res.cloudinary.com/daudgshta/video/upload/v1708437478/Coffee_House_2_kgqgh9.mp4",
+        "image2": "https://i.ibb.co/TPQWWbY/coffee-gif.gif",
         "image3": "https://i.ibb.co/9wX0pvj/Screenshot-2024-02-20-200154.png",
         "image4": "https://i.ibb.co/3mpHh9b/Screenshot-2024-02-20-200219.png",
         "note": "This is my first Vue.js project with the MySql database. After reading some docs i make a basic website using this.",

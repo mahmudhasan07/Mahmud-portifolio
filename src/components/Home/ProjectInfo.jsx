@@ -59,7 +59,7 @@ const ProjectInfo = () => {
             </div>
 
             {/* //* Features section */}
-            <div>
+            <div className="ml-10">
                 <h1 className="text-4xl font-semibold mb-5">Features Section</h1>
                 <ul className="">
                     {

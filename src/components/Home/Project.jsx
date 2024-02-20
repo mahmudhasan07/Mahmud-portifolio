@@ -32,7 +32,7 @@ const Project = () => {
             // data-aos-offset="500"
             // data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            className="bg-black lg:h-screen h-full">
+            className="bg-black h-full">
             <div>
                 <span id="projects" className="lg:text-8xl md:text-7xl text-6xl text-gray-800 opacity-60 font-extrabold absolute ">Projects</span>
                 <h1 className="lg:text-6xl md:text-5xl text-4xl text-center relative text-white font-bold lg:top-5 md:top-4 top-3">My <span className="text-blue-800">Projects</span></h1>
