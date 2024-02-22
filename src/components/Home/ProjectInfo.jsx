@@ -31,10 +31,14 @@ const ProjectInfo = () => {
                     data-aos-duration="1200" className="w-2/5  relative">
                     <img src={image} alt="" />
                     <div className="flex justify-around  my-2 ">
-                        <img onClick={() => setimage(details.image1)} className="w-24 " src={details.image1} alt="" />
-                        <img onClick={() => setimage(details.image2)} className="w-24 " src={details.image2} alt="" />
-                        <img onClick={() => setimage(details.image3)} className="w-24 " src={details.image3} alt="" />
-                        <img onClick={() => setimage(details.image4)} className="w-24 " src={details.image4} alt="" />
+                        <img onClick={() => setimage(details?.image1)} className="w-24 " src={details.image1} alt="" />
+                        <img onClick={() => setimage(details?.image2)} className="w-24 " src={details.image2} alt="" />
+                        <img onClick={() => setimage(details?.image3)} className="w-24 " src={details.image3} alt="" />
+                        <img onClick={() => setimage(details?.image4)} className="w-24 " src={details.image4} alt="" />
+                        <img onClick={() => setimage(details?.image5)} className="w-24 " src={details.image4} alt="" />
+                        <img onClick={() => setimage(details?.image6)} className="w-24 " src={details.image4} alt="" />
+                        <img onClick={() => setimage(details?.image7)} className="w-24 " src={details.image4} alt="" />
+                        <img onClick={() => setimage(details?.image8)} className="w-24 " src={details.image4} alt="" />
                     </div>
                 </div>
                 <div data-aos="fade-left"
