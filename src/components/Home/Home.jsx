@@ -20,22 +20,22 @@ const Home = () => {
             // data-aos-easing="ease-out-cubic"
             data-aos-duration="2500"
             className="lg:pb-0 pb-2 " style={{ backgroundImage: `url(${banner2})`, backgroundAttachment: "fixed", backgroundPosition: "center", backgroundSize: "cover" }}>
-            <div className="flex lg:h-screen md:h-full h-screen justify-around lg:gap-0 gap-6 flex-wrap " >
+            <div className="flex  h-screen justify-around lg:gap-0 gap-6 flex-wrap overflow-hidden" >
                 <div 
                 data-aos="fade-right"
             data-aos-easing="ease-in-sine"
             data-aos-delay="1000"
             data-aos-duration="3000" 
-            className="lg:my-auto mt-10" id="imagediv">
+            className="my-auto border-2" id="imagediv">
                 {/* <FaGithub className="border "></FaGithub> */}
-                    <img id="image1" className=" lg:w-96 p-2 lg:h-96 md:w-72 md:h-72 w-60 h-60 rounded-full object-cover " src={myimage} alt="" />
+                    <img id="image1" className=" lg:w-96 p-2 lg:h-96 md:w-80 md:h-80 w-60 h-60 rounded-full object-cover " src={myimage} alt="" />
                 </div>
                 <div 
                 data-aos="fade-left"
             data-aos-easing="ease-in-sine"
             data-aos-delay="1000"
             data-aos-duration="3000" 
-            className="lg:my-auto  lg:p-0 ">
+            className="lg:my-auto border-2 lg:p-0 ">
                     <div>
                     <p  className="lg:text-6xl md:text-5xl justify-center  text-4xl mb-5 font-bold flex gap-2 text-white">
                       - I'm  <p id="name" className="">Mahmud Hasan</p><span className="" id="zoom">.</span>
