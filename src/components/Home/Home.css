@@ -63,7 +63,7 @@
     -webkit-text-stroke-color: grey;
     color: transparent;
     position: absolute;
-    width: 720px;
+    width: 700px;
     top: 0;
     left: 2px;
     /* border: 2px solid; */
@@ -111,7 +111,7 @@
 
 #text-slide {
     /* border: 2px solid; */
-    width: 720px;
+    width: 700px;
     /* position: absolute; */
     color: blue;
     overflow: hidden;
@@ -132,7 +132,7 @@
     }
 
     #field {
-        width: 550px;
+        width: 500px;
     }
 }
 
@@ -142,7 +142,7 @@
     }
 
     #field {
-        width: 355px;
+        width: 320px;
     }
 }
 
