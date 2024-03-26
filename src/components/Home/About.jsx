@@ -108,7 +108,7 @@ const About = () => {
                         // data-aos-offset="500"
                         data-aos-easing="ease-in-sine"
                         data-aos-delay="500"
-                        data-aos-duration="1200" className='lg:w-2/5  space-y-5'>
+                        data-aos-duration="1200" className='lg:w-2/5 border-2 space-y-5'>
                         <div className='flex gap-10 '>
                             <FaBusinessTime className='text-3xl z-40 bg-blue-800 text-white p-1 rounded-full'></FaBusinessTime>
                             <hr className='border opacity-15 h-20 -ml-14' />
