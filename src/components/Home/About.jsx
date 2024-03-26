@@ -29,14 +29,14 @@ const About = () => {
                     data-aos-easing="ease-in-sine"
                     data-aos-delay="1000"
                     data-aos-duration="3000" className=''>
-                    <img src={myimage} id='myimage2' className='lg:w-72 w-60' alt="" />
+                    <img src={myimage} id='myimage2' className='lg:w-80 md:w-72 w-60' alt="" />
                     {/* <span className='bg-gray-700 w-60 p-52 absolute top-28 opacity-15  rounded-full'>   </span> */}
                 </div>
                 <div data-aos="fade-right"
                     // data-aos-offset="500"
                     data-aos-easing="ease-in-sine"
                     data-aos-delay="1000"
-                    data-aos-duration="3000" className=' text-white my-auto'>
+                    data-aos-duration="3000" className='lg:text-start md:text-start text-center py-2 text-white my-auto'>
                     <h1 className='text-5xl italic text-center font-semibold'>Personal InFo</h1>
                     <hr className='w-3/4 mx-auto border-2 mt-1 rounded-xl' />
                     <div className='mt-5'>
@@ -45,9 +45,9 @@ const About = () => {
                         <h1 className='text-lg mb-2'><span className='font-semibold'>Freelancer: </span>Available</h1>
                         <h1 className='text-lg mb-2'><span className='font-semibold'>Nationality: </span>Bangladeshi</h1>
                         <h1 className='text-lg mb-2'><span className='font-semibold'>Language: </span>Bangla, English, Hindi(only listening understand)</h1>
-                        <div>
+                        <div className='lg:w-full md:w-full w-fit mx-auto  '>
                             <a href={CV} download={`Mahmud-CV`} rel='Mahmud CV'>
-                                <button className='button z-40 flex gap-1 mt-5 border'>
+                                <button className='button z-40 flex gap-1 mt-5'>
                                     <span className="button-content text-lg  my-auto">Download CV</span>
                                     <span><MdFileDownload className=' root text-2xl top-3'></MdFileDownload></span>
                                 </button>

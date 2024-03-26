@@ -47,7 +47,7 @@ const Contact = () => {
         <section
             data-aos="fade-down"
             data-aos-duration="2000"
-            className="bg-black lg:h-screen h-full">
+            className="bg-black h-screen">
                 <ToastContainer />
             <span className='lg:text-8xl md:text-6xl text-4xl font-extrabold text-gray-800 opacity-60 absolute' id='contactme'>Contact Me</span>
             <h1 className='lg:text-6xl md:text-5xl text-3xl text-center z-50 text-white font-bold relative lg:top-6 md:top-3 top-1 lg:mb-10 mb-5'>Get <span className='text-blue-800'>In Touch</span></h1>
