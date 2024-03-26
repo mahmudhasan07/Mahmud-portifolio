@@ -16,7 +16,7 @@ transition: all 40ms ease-out;
 }
 #about:hover:before{
 content: "Profile";
-transition: all 200ms;
+transition: all 2s;
 width: auto;
 
 }
