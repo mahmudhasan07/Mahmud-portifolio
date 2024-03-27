@@ -16,7 +16,7 @@ transition: all 40ms ease-out;
 }
 #about:hover:before{
 content: "Profile";
-transition: all 2s;
+transition: all 200ms;
 width: auto;
 
 }
@@ -61,5 +61,6 @@ li{
 }
 .lihover:hover{
     background-color: blue;
+    /* transition: all 1.5s; */
     
 }

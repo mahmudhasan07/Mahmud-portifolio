@@ -18,11 +18,11 @@ const NavBar = () => {
         <section className='fixed top-1/3 z-50  end-0'>
             <div className=''>
                 <ul className='flex flex-col gap-2'>
-                    <NavLink  to={'/'}><li id='home' className="lihover flex text-xl text-white w-auto p-2 rounded-full border-2 gap-2 text-end"><IoHome className="text-2xl" ></IoHome></li></NavLink>
-                    <NavLink  to={'/about'}><li id='about' className="lihover flex text-xl justify-end  text-white  w-auto p-2 rounded-full border-2 gap-2"><CgProfile className="text-2xl"></CgProfile></li></NavLink>
-                    <NavLink  to={'/projects'}><li id='project' className="lihover flex text-xl  text-white  w-auto p-2 rounded-full border-2 gap-2"> <FaProjectDiagram className="text-2xl"></FaProjectDiagram></li></NavLink>
+                    <NavLink  to={'/'}><li id='home' className="lihover flex text-xl text-white  p-2 rounded-full border-2 gap-2 text-end"><IoHome className="text-2xl" ></IoHome></li></NavLink>
+                    <NavLink  to={'/about'}><li id='about' className="lihover flex text-xl justify-end  text-white  p-2 rounded-full border-2 gap-2"><CgProfile className="text-2xl"></CgProfile></li></NavLink>
+                    <NavLink  to={'/projects'}><li id='project' className="lihover flex text-xl  text-white  p-2 rounded-full border-2 gap-2"> <FaProjectDiagram className="text-2xl"></FaProjectDiagram></li></NavLink>
                     {/* <NavLink  to={'/skills'}><li id='skill' className="flex text-xl  text-white bg-blue-800 w-auto p-2 rounded-full border-2 gap-2"><GiSkills className="text-2xl"></GiSkills></li></NavLink> */}
-                    <NavLink  to={'/contact'}><li id='contact' className="lihover flex text-xl text-white w-auto p-2 rounded-full border-2 gap-2"><HiOutlineMailOpen className="text-2xl"></HiOutlineMailOpen></li></NavLink>
+                    <NavLink  to={'/contact'}><li id='contact' className="lihover flex text-xl text-white p-2 rounded-full border-2 gap-2"><HiOutlineMailOpen className="text-2xl"></HiOutlineMailOpen></li></NavLink>
                     </ul>
                 
             </div>
