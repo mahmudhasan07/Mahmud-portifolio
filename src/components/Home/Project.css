@@ -4,12 +4,12 @@
 
 @media screen and (max-width: 768px) {
     #projects{
-        left: 29%;
+        left: 31%;
     }
 }
 @media screen and (max-width: 430px) {
     #projects{
-        left: 18%;
+        left: 27%;
     }
 }
 
