@@ -95,7 +95,7 @@
     color: blue;
     /* border: 2px solid green; */
     overflow: hidden;
-    animation: textslide 5s infinite alternate steps(30);
+    animation: textslide 5s infinite alternate steps(25);
     white-space: nowrap;
 }
 

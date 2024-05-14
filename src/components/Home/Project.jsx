@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet";
 const Project = () => {
 
     const [array, setArray] = useState(project)
@@ -33,6 +35,11 @@ const Project = () => {
             // data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             className="bg-black h-full">
+            {/* <Helmet>
+                <meta name="keyword" content="hello hi bye" />
+                <title>Mahmud's projects</title>
+                <link rel="icon" type="image/x-icon" href="https://i.ibb.co/fnfV5wb/Screenshot-2024-03-09-213628.png" />
+            </Helmet> */}
             <div>
                 <span id="projects" className="lg:text-8xl md:text-7xl text-6xl text-gray-800 opacity-60 font-extrabold absolute ">Projects</span>
                 <h1 className="lg:text-6xl md:text-5xl text-4xl text-center relative text-white font-bold lg:top-5 md:top-4 top-3">My <span className="text-blue-800">Projects</span></h1>

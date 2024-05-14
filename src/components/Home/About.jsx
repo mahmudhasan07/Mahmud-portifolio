@@ -23,7 +23,7 @@ const About = () => {
             className=" bg-black  h-full ">
             <p className="lg:text-8xl text-5xl text-gray-800 opacity-60 absolute lg:left-1/3 left-1/4  mx-auto font-extrabold " > About Me</p>
             <h1 className='lg:text-6xl text-4xl text-white text-center lg:top-5 top-2 relative font-bold'>My <span className='text-blue-800 '>Profile</span></h1>
-            <div className='flex justify-around flex-wrap lg:my-12 my-5'>
+            <div className='flex justify-around gap-5 flex-wrap lg:my-12 my-5'>
                 <div data-aos="fade-right"
                     // data-aos-offset="500"
                     data-aos-easing="ease-in-sine"
@@ -36,16 +36,16 @@ const About = () => {
                     // data-aos-offset="500"
                     data-aos-easing="ease-in-sine"
                     data-aos-delay="1000"
-                    data-aos-duration="3000" className='lg:text-start md:text-start text-center py-2 text-white my-auto'>
+                    data-aos-duration="3000" className='lg:text-start  text-center py-2 text-white my-auto'>
                     <h1 className='text-5xl italic text-center font-semibold'>Personal InFo</h1>
                     <hr className='w-3/4 mx-auto border-2 mt-1 rounded-xl' />
                     <div className='mt-5'>
-                        <h1 className='text-lg mb-2'><span className='font-semibold'>Name: </span>Mahmud Hasan Siddique</h1>
-                        <h1 className='text-lg mb-2'><span className='font-semibold'>Occupation: </span>Student</h1>
-                        <h1 className='text-lg mb-2'><span className='font-semibold'>Freelancer: </span>Available</h1>
-                        <h1 className='text-lg mb-2'><span className='font-semibold'>Nationality: </span>Bangladeshi</h1>
-                        <h1 className='text-lg mb-2'><span className='font-semibold'>Language: </span>Bangla, English, Hindi(only listening understand)</h1>
-                        <div className='lg:w-full md:w-full w-fit mx-auto  '>
+                        <h1 className='lg:text-2xl text-xl mb-2'><span className='font-semibold'>Name: </span>Mahmud Hasan Siddique</h1>
+                        <h1 className='lg:text-2xl text-xl mb-2'><span className='font-semibold'>Occupation: </span>Student</h1>
+                        <h1 className='lg:text-2xl text-xl mb-2'><span className='font-semibold'>Freelancer: </span>Available</h1>
+                        <h1 className='lg:text-2xl text-xl mb-2'><span className='font-semibold'>Nationality: </span>Bangladeshi</h1>
+                        <h1 className='lg:text-2xl text-xl mb-2'><span className='font-semibold'>Language: </span>Bangla, English, Hindi(only listening understand)</h1>
+                        <div className='lg:w-full  w-fit mx-auto  '>
                             <a href={CV} download={`Mahmud-CV`} rel='Mahmud CV'>
                                 <button className='button z-40 flex gap-1 mt-5'>
                                     <span className="button-content text-lg  my-auto">Download CV</span>
@@ -62,7 +62,7 @@ const About = () => {
             <div className='text-white lg:my-12 ny-6'>
                 <h1 className='text-4xl font-semibold text-center '>My <span className='text-blue-800'>Skills</span></h1>
                 <hr className='w-1/3 text-center mx-auto border-2 my-6' />
-                <div className='flex flex-wrap gap-5  justify-around'>
+                <div className='flex flex-wrap gap-7  justify-around'>
                     <div data-aos="fade-right"
                         // data-aos-offset="500"
                         data-aos-easing="ease-in-sine"
@@ -108,7 +108,7 @@ const About = () => {
                         // data-aos-offset="500"
                         data-aos-easing="ease-in-sine"
                         data-aos-delay="500"
-                        data-aos-duration="1200" className='lg:w-2/5 border-2 space-y-5'>
+                        data-aos-duration="1200" className='lg:w-2/5 w-full md:mx-7 mx-3 space-y-5'>
                         <div className='flex gap-10 '>
                             <FaBusinessTime className='text-3xl z-40 bg-blue-800 text-white p-1 rounded-full'></FaBusinessTime>
                             <hr className='border opacity-15 h-20 -ml-14' />
@@ -132,7 +132,7 @@ const About = () => {
                         // data-aos-offset="500"
                         data-aos-easing="ease-in-sine"
                         data-aos-delay="600"
-                        data-aos-duration="1200" className='space-y-5  mx-1 lg:w-2/5'>
+                        data-aos-duration="1200" className='space-y-5 w-full md:mx-7 mx-3 lg:w-2/5'>
                         <div className='flex gap-10'>
                             <FaBookOpenReader className='text-3xl z-40 bg-blue-800 text-white p-1 rounded-full'></FaBookOpenReader>
                             <hr className='border opacity-15 h-20 -ml-14' />
